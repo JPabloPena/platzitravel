@@ -1,1 +1,74 @@
 @import "tailwindcss";
+
+@theme {
+  /* Background Image */
+  /* This does not work!
+  --bg-sanFrancisco: url('../public/images/sanFrancisco.jpg');
+  --bg-sanFranciscoDesktop: url('../public/images/sanFranciscoDesktop.jpg');
+  --bg-yosemite: url('../public/images/yosemite.jpg');
+  --bg-LA: url('../public/images/LA.jpg');
+  --bg-seattle: url('../public/images/seattle.jpg');
+  --bg-new_york: url('../public/images/new_york.jpg');
+  --bg-norway: url('../public/images/norway.jpg');
+  --bg-sydney: url('../public/images/sydney.jpg');
+  --bg-miami: url('../public/images/miami.jpg');
+  --bg-switzerland: url('../public/images/switzerland.jpg');
+  --bg-bali: url('../public/images/bali.jpg');
+  --bg-chicago: url('../public/images/chicago.jpg');
+  --bg-europe: url('../public/images/europe.jpg');
+  --bg-iceland: url('../public/images/iceland.jpg');
+  */
+  /* Background Color */
+  --bg-primary: #CC2D4A;
+  --bg-secondary: #8FA206;
+  --bg-terciary: #61AEC9;
+  /* Colors */
+  --color-primary: #CC2D4A;
+  --color-secondary: #8FA206;
+  --color-terciary: #61AEC9;
+  /* Fonts */
+  --font-montserrat: Montserrat, 'sans-serif';
+}
+
+@utility bg-sanFrancisco {
+  background-image: url('../public/images/sanFrancisco.jpg');
+}
+@utility bg-sanFranciscoDesktop {
+  background-image: url('../public/images/sanFranciscoDesktop.jpg');
+}
+@utility bg-yosemite {
+  background-image: url('../public/images/yosemite.jpg');
+}
+@utility bg-LA {
+  background-image: url('../public/images/LA.jpg');
+}
+@utility bg-seattle {
+  background-image: url('../public/images/seattle.jpg');
+}
+@utility bg-new_york {
+  background-image: url('../public/images/new_york.jpg');
+}
+@utility bg-norway {
+  background-image: url('../public/images/norway.jpg');
+}
+@utility bg-sydney {
+  background-image: url('../public/images/sydney.jpg');
+}
+@utility bg-miami {
+  background-image: url('../public/images/miami.jpg');
+}
+@utility bg-switzerland {
+  background-image: url('../public/images/switzerland.jpg');
+}
+@utility bg-bali {
+  background-image: url('../public/images/bali.jpg');
+}
+@utility bg-chicago {
+  background-image: url('../public/images/chicago.jpg');
+}
+@utility bg-europe {
+  background-image: url('../public/images/europe.jpg');
+}
+@utility bg-iceland {
+  background-image: url('../public/images/iceland.jpg');
+}
