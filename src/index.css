@@ -21,11 +21,11 @@
   /* Background Color */
   --bg-primary: #CC2D4A;
   --bg-secondary: #8FA206;
-  --bg-terciary: #61AEC9;
+  --bg-tertiary: #61AEC9;
   /* Colors */
   --color-primary: #CC2D4A;
   --color-secondary: #8FA206;
-  --color-terciary: #61AEC9;
+  --color-tertiary: #61AEC9;
   /* Fonts */
   --font-montserrat: Montserrat, 'sans-serif';
 }
@@ -45,7 +45,7 @@
 @utility bg-seattle {
   background-image: url('../public/images/seattle.jpg');
 }
-@utility bg-new_york {
+@utility bg-newYork {
   background-image: url('../public/images/new_york.jpg');
 }
 @utility bg-norway {
