@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import Home from './components/Home'
+import Recommended from './components/Recommended'
 
-function App() {
+function App () {
   return (
-    <>
-      <div className='w-96 h-96 bg-gray-100 p-10 m-20 flex space-x-4 justify-end items-end'>
-        <div className='w-16 h-16 bg-red-300'></div>
-        <div className='w-16 h-16 bg-red-300'></div>
-        <div className='w-16 h-16 bg-red-300'></div>
-        <div className='w-16 h-16 bg-red-300'></div>
-      </div>
-    </>
+    <div className='font-montserrat'>
+      <nav />
+      <div id='tab-bar' />
+      <section className='w-full h-screen'>
+        <Home />
+        <Recommended />
+        <div id='highlighted' />
+      </section>
+      <footer />
+    </div>
   )
 }
 
