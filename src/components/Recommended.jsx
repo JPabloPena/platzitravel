@@ -4,12 +4,12 @@ import RecommendedCard from './RecommendedCard'
 const CARDS = [
   {
     imageClass: 'bg-norway',
-    name: 'Norway',
+    title: 'Norway',
     desc: 'Beautiful landscapes'
   },
   {
     imageClass: 'bg-newYork',
-    name: 'New York',
+    title: 'New York',
     desc: 'Concrete jungle'
   }
 ]
@@ -22,9 +22,9 @@ function Recommended () {
         {
           CARDS.map((card, index) => (
             <RecommendedCard
-              key={card.name}
+              key={card.title}
               imageClass={card.imageClass}
-              name={card.name}
+              title={card.title}
               desc={card.desc}
               index={index}
             />
