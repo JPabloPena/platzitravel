@@ -1,3 +1,4 @@
+import FAQs from './components/FAQs'
 import Home from './components/Home'
 import OutstandingPlaces from './components/OutstandingPlaces'
 import Recommended from './components/Recommended'
@@ -11,6 +12,7 @@ function App () {
         <Home />
         <Recommended />
         <OutstandingPlaces />
+        <FAQs />
       </section>
       <footer />
     </div>
