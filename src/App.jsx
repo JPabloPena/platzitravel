@@ -1,4 +1,5 @@
 import Home from './components/Home'
+import OutstandingPlaces from './components/OutstandingPlaces'
 import Recommended from './components/Recommended'
 
 function App () {
@@ -9,7 +10,7 @@ function App () {
       <section className='w-full h-screen'>
         <Home />
         <Recommended />
-        <div id='highlighted' />
+        <OutstandingPlaces />
       </section>
       <footer />
     </div>
