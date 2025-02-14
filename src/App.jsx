@@ -3,11 +3,11 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import OutstandingPlaces from './components/OutstandingPlaces'
 import Recommended from './components/Recommended'
+import TabBar from './components/TabBar'
 
 function App () {
   return (
     <div className='font-montserrat'>
-      <nav />
       <div id='tab-bar' />
       <section className='w-full h-screen'>
         <Home />
@@ -15,6 +15,7 @@ function App () {
         <OutstandingPlaces />
         <FAQs />
         <Footer />
+        <TabBar />
       </section>
       <footer />
     </div>
