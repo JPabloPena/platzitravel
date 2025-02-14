@@ -21,7 +21,7 @@ function TabBar () {
         <MoonIcon className='fill-current text-gray-200' />
       </button>
       <a href='#faqs'>
-        <QuestionIcon className='stroke-gray-200' />
+        <QuestionIcon className='fill-current text-gray-200' />
       </a>
     </nav>
   )
