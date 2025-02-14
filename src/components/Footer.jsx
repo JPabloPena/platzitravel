@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer () {
   return (
-    <footer className='bg-gray-200/60 mt-12 p-6 flex flex-col space-y-2'>
+    <footer className='bg-gray-200/60 mt-12 p-6 pb-[88px] flex flex-col space-y-2'>
       <h2 className='text-lg'>About Us</h2>
       <ul>
         <li><a href='#' className='text-sm text-gray-500'>Investors</a></li>
