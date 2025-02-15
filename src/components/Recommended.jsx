@@ -33,7 +33,7 @@ function Recommended () {
   return (
     <section id='recommended' className='p-6'>
       <h2 className='text-3xl font-semibold text-primary'>Recommended</h2>
-      <div className='w-auto h-auto pb-4 mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden'>
+      <div className='w-auto pb-4 pt-4 mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden'>
         {
           CARDS.map((card, index) => (
             <RecommendedCard
