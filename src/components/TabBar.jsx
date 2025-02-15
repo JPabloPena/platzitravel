@@ -7,7 +7,7 @@ import QuestionIcon from '../icons/QuestionIcon'
 
 function TabBar () {
   return (
-    <nav id='tab-bar' className='w-full h-16 bg-white fixed bottom-0 shadow-md flex space-x-8 justify-center items-center'>
+    <nav id='tab-bar' className='w-full h-16 bg-white fixed bottom-0 shadow-md flex space-x-8 justify-center items-center lg:hidden'>
       <a href='#home'>
         <HomeIcon className='fill-current text-gray-200' />
       </a>
