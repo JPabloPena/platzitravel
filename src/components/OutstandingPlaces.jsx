@@ -5,12 +5,14 @@ const CARDS = [
   {
     imageClass: 'bg-chicago',
     title: 'Chicago',
-    desc: '2 rooms, bathroom and kitchen.'
+    desc: '2 rooms, bathroom and kitchen.',
+    customClass: 'lg:col-span-2'
   },
   {
     imageClass: 'bg-LA',
     title: 'Los Angeles',
-    desc: '4 rooms, 3 bathrooms, kitchen and private pool.'
+    desc: '4 rooms, 3 bathrooms, kitchen and private pool.',
+    customClass: 'lg:row-span-2 lg:h-full'
   },
   {
     imageClass: 'bg-miami',
@@ -30,7 +32,7 @@ function OutstandingPlaces () {
       <h2 className='text-3xl text-primary font-semibold pb-6'>
         Outstanding Places
       </h2>
-      <div className='w-full h-full flex flex-col space-y-6 items-center justify-center'>
+      <div className='w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-6'>
         {
           CARDS.map(card => (
             <OutstandingPlacesCard
@@ -38,6 +40,7 @@ function OutstandingPlaces () {
               imageClass={card.imageClass}
               title={card.title}
               desc={card.desc}
+              customClass={card.customClass}
             />
           ))
         }
