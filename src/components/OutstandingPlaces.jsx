@@ -28,8 +28,8 @@ const CARDS = [
 
 function OutstandingPlaces () {
   return (
-    <section id='outstandingPlaces' className='px-6 w-full'>
-      <h2 className='text-3xl text-primary font-semibold pb-6'>
+    <section id='outstandingPlaces' className='px-6 w-full bg-inherit'>
+      <h2 className='text-3xl text-primary font-semibold pb-6 dark:text-white'>
         Outstanding Places
       </h2>
       <div className='w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-6'>

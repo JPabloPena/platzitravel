@@ -31,8 +31,8 @@ const CARDS = [
 
 function Recommended () {
   return (
-    <section id='recommended' className='p-6'>
-      <h2 className='text-3xl font-semibold text-primary'>Recommended</h2>
+    <section id='recommended' className='p-6 bg-inherit'>
+      <h2 className='text-3xl font-semibold text-primary dark:text-white'>Recommended</h2>
       <div className='w-auto pb-4 pt-4 mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden'>
         {
           CARDS.map((card, index) => (

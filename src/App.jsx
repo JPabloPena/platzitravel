@@ -8,9 +8,9 @@ import TabBar from './components/TabBar'
 
 function App () {
   return (
-    <div className='font-montserrat'>
+    <div className='font-montserrat dark:bg-gray-900'>
       <div id='tab-bar' />
-      <section className='w-full h-screen'>
+      <section className='w-full h-screen dark:bg-gray-900'>
         <Navbar />
         <Home />
         <Recommended />
