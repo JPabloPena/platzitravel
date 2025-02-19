@@ -72,7 +72,7 @@ Before setting up the project, ensure you have the following installed:
    ```
 2. Navigate to the project directory
    ```sh
-   cd world-ranks
+   cd platzitravel
    ```
 3. Install dependencies
    ```sh
@@ -87,4 +87,4 @@ Before setting up the project, ensure you have the following installed:
 ## Contact
 Juan Pablo Peña F. - [LinkedIn](https://www.linkedin.com/in/jpablopena/) - pablo27-99@hotmail.com
 
-Project link: [https://github.com/JPabloPena/world-ranks](https://github.com/JPabloPena/world-ranks)
+Project link: [https://github.com/JPabloPena/platzitravel](https://github.com/JPabloPena/platzitravel)
